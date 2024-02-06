@@ -31,7 +31,7 @@ export default function AboutLayout() {
               transition={{ duration: 0.4 }}
               className="text-md"
             >
-              Founder job.com
+              Full-Stack & Free Lancer
             </motion.p>
             <motion.p
               whileInView={{ y: 0, opacity: 1 }}
