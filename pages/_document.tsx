@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Jhon Ceno Portofolio</title>
+        <title>Ahmad Rafi | Portofolio</title>
         <link rel="shortcut icon" href="profile.jpg" type="image/x-icon" />
       </Head>
       <body data-theme="light">
