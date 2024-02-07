@@ -5,13 +5,13 @@ export default function FooterLayout() {
   return (
     <>
       <footer>
-        <div className="flex justify-evenly items-center">
+        <div className="lg:flex block justify-evenly lg:mx-0 mx-[20px] items-center">
           <motion.div whileInView={{ x: 0 }} animate={{ x: -100 }}>
             <h1 className="text-6xl w-1/1 font-bold">
               is there anything <br /> I can help you with.
             </h1>
           </motion.div>
-          <motion.ul whileInView={{ x: 0 }} animate={{ x: 100 }}>
+          <motion.ul whileInView={{ x: 0 }} animate={{ x: 100 }} className="lg:block hidden ">
             <li>
               <Link href="">Home</Link>
             </li>
@@ -28,7 +28,7 @@ export default function FooterLayout() {
               <Link href="">Contact</Link>
             </li>
           </motion.ul>
-          <motion.ul whileInView={{ x: 0 }} animate={{ x: 100 }}>
+          <motion.ul whileInView={{ x: 0 }} animate={{ x: 100 }}  className="lg:block hidden ">
             <li>
               <Link href="">Instagram</Link>
             </li>
@@ -46,7 +46,7 @@ export default function FooterLayout() {
             </li>
           </motion.ul>
         </div>
-        <motion.div whileInView={{ y:0 }} animate={{ y:-50 }} className="flex justify-center items-center mt-3">
+        <motion.div whileInView={{ y:0 }} animate={{ y:-50 }} className="flex lg:justify-center justify-end lg:mx-0 mx-[20px] items-center mt-3">
           <h1>&copy;2024 all reverd by rafii.site</h1>
         </motion.div>
       </footer>
