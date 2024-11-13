@@ -35,16 +35,6 @@ export default function ExprerienceLayout() {
                 transition={{ duration: 0.6 }}
                 className="p-3 rounded"
               >
-                <div className="bg-blue-900 w-[230px] p-2 rounded-md flex justify-center items-center">
-                  <img src="./sinergi.png" />
-                </div>
-              </motion.div>
-              <motion.div
-                whileInView={{ y: 0 }}
-                animate={{ y: -100 }}
-                transition={{ duration: 0.6 }}
-                className="p-3 rounded"
-              >
                 <div className="bg-gray-100 w-[200px] p-2 rounded-md flex justify-center items-center">
                   <img src="./free.png" />
                 </div>
